@@ -3,19 +3,36 @@ nav {
     font-family: 'Alegreya Sans SC', 'san-serif';
 }
 
+.nav-link {
+    padding: 0px 20px 0px 20px !important;
+}
+
+/* jumbotron */
 .jumbotron {
     width: 60%;
     margin: auto;
 }
 
-h1 {
+.display-4 {
     font-family: 'Alegreya Sans SC', 'san-serif';
+    font-weight: 500 !important;
+    color: #1C5F68 !important;
     display: flex;
     justify-content: center;
 }
+
 
 /* Login */
 .form-group {
     width: 50%;
     font-family: 'Alegreya Sans SC', 'san-serif';
+}
+
+label {
+    color: #1C5F68;
+}
+
+
+.container-fluid {
+    width: 50%;
 }
