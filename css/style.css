@@ -32,6 +32,13 @@ label {
     color: #1C5F68;
 }
 
+.btn.btn-primary{
+    color: #ffffff;
+    background: #1C5F68;
+}
+.btn.btn-primary:hover {
+    background-color: #87BBA2;
+}
 
 .container-fluid {
     width: 50%;
