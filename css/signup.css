@@ -1,0 +1,120 @@
+/* NAV BAR */
+nav {
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    
+}
+
+.nav-link {
+    padding: 0px 20px 0px 20px !important;
+}
+
+#logo {
+    height: 50px;
+    width: 100px
+}
+
+body {
+    background-image: url("../image/bg_img.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 25px);
+}
+
+/* jumbotron */
+.jumbotron {
+    width: 60%;
+    margin: auto;
+    color: green;
+}
+
+.display-4 {
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    font-weight: 500 !important;
+    color: #1C5F68 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.onboarding {
+    display: flex;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 200px;
+    
+  }
+
+  /* Login */
+.login {
+    flex: 1;
+}
+
+.form-group {
+    width: 70%;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    font-size: 13pt;
+    padding: 0px 0px 0px 40px;
+}
+
+label {
+    color: #1C5F68;
+}
+
+#login-btn {
+    padding: 0px 0px 0px 40px;
+}
+.btn.btn-primary{
+    color: #ffffff;
+    background: #1C5F68;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    width: 100px;
+    border: 1px solid #1C5F68;
+}
+
+.btn.btn-primary:hover {
+    background-color: #ffffff;
+    color: #1C5F68;
+    border: 1px solid #1C5F68;
+}
+
+/* Signup */
+.signup {
+    flex: 1;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    color:#1C5F68;
+    position: relative;
+}
+p {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+}
+
+li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#signup-btn {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.btn.btn-secondary {
+    color: #ffffff;
+    background: #1C5F68;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    width: 100px;
+    border: 1px solid #1C5F68;
+}
+
+.btn.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #1C5F68;
+    border: 1px solid #1C5F68;
+}
+
