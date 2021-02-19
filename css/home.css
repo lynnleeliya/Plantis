@@ -44,3 +44,46 @@ nav {
     background-color: #ffffff;
     color: #1C5F68;
 }
+
+/* CARDS */
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    font-size: 500;
+    color: #1C5F68;
+  }
+  .withPlantis  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+  /* .sideAccent {
+    background: #007bff;
+    width: 15px;
+  } */
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .card-title {
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    color: #1C5F68;
+  }
+
+  .card-text {
+    font-family: 'Alegreya Sans', 'san-serif';
+    color: #1C5F68;
+  }
