@@ -1,7 +1,6 @@
 /* NAV BAR */
 nav {
     font-family: 'Alegreya Sans SC', 'san-serif';
-    
 }
 
 .nav-link {
@@ -12,6 +11,7 @@ nav {
     height: 50px;
     width: 100px
 }
+
 /* JUMBOTRON */
 .jumbotron{
     background-image: url("../image/home-bg-img.jpg") !important;
@@ -22,7 +22,6 @@ nav {
     align-items: center;
     justify-content: center;
 }
-
 .display-4 {
     font-family: 'Alegreya Sans SC', 'san-serif';
     font-size: 65pt;
@@ -86,4 +85,37 @@ nav {
   .card-text {
     font-family: 'Alegreya Sans', 'san-serif';
     color: #1C5F68;
+  }
+  .btn.btn-secondary {
+    color: #ffffff;
+    background: #1C5F68;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    width: 130px;
+}
+.btn.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #1C5F68;
+}
+/* Footer */
+.emailContain {
+    background: url(../image/footer-img.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  /* Footer form */
+  #footer {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
   }
