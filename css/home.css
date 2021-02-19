@@ -27,11 +27,11 @@ nav {
     font-family: 'Alegreya Sans SC', 'san-serif';
     font-size: 65pt;
     font-weight: 700 !important;
-    color: #ffffff;
+    color: #1C5F68;
 }
 .lead {
-    font-family: 'Yantramanav', 'san-serif';
-    color: #ffffff;
+    font-family: 'Alegreya Sans', 'san-serif';
+    color: #1C5F68;
 }
 .btn.btn-primary {
     color: #ffffff;
