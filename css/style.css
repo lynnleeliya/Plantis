@@ -17,6 +17,7 @@ body {
     background-image: url("../image/bg_img.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
+    height: calc(100vh - 25px);
 }
 
 /* jumbotron */
@@ -43,6 +44,39 @@ body {
     height: 200px;
     
   }
+
+  /* Login */
+.login {
+    flex: 1;
+}
+
+.form-group {
+    width: 70%;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    font-size: 13pt;
+    padding: 0px 0px 0px 40px;
+}
+
+label {
+    color: #1C5F68;
+}
+
+#login-btn {
+    padding: 0px 0px 0px 40px;
+}
+.btn.btn-primary{
+    color: #ffffff;
+    background: #1C5F68;
+    font-family: 'Alegreya Sans SC', 'san-serif';
+    width: 100px;
+    border: 1px solid #1C5F68;
+}
+
+.btn.btn-primary:hover {
+    background-color: #ffffff;
+    color: #1C5F68;
+    border: 1px solid #1C5F68;
+}
 
 /* Signup */
 .signup {
@@ -75,39 +109,12 @@ li {
     background: #1C5F68;
     font-family: 'Alegreya Sans SC', 'san-serif';
     width: 100px;
+    border: 1px solid #1C5F68;
 }
 
 .btn.btn-secondary:hover {
     background-color: #ffffff;
     color: #1C5F68;
+    border: 1px solid #1C5F68;
 }
 
-/* Login */
-.login {
-    flex: 1;
-}
-
-.form-group {
-    width: 70%;
-    font-family: 'Alegreya Sans SC', 'san-serif';
-    font-size: 13pt;
-}
-
-label {
-    color: #1C5F68;
-}
-
-.btn.btn-primary{
-    color: #ffffff;
-    background: #1C5F68;
-    font-family: 'Alegreya Sans SC', 'san-serif';
-    width: 100px;
-    height: 35px;
-}
-
-.btn.btn-primary:hover {
-    background-color: #ffffff;
-    color: #1C5F68;
-}
-
-/*  */
