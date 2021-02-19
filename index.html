@@ -15,7 +15,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">PLANTIS</a>
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="./image/Group_151.png" alt="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,11 +40,14 @@
           </form>
         </div>
       </nav>
+      <br>
+      <br>
     <!-- Jumbotron Login -->
     <div class="jumbotron">
         <h1 class="display-4">Welcome to PLANTIS</h1>
-        <form>
-            <div class="container-fluid">
+        <div class="onboarding">
+        <div class="login">
+          <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -52,11 +57,17 @@
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <button type="login" class="btn btn-primary">Login</button>
-            </div>
           </form>
-          <div class="container-fluid signup">
-
+        </div>
+        <div class="vl"></div>
+          <div class="signup">
+            <p>Are you a new user?</p>
+            <li>Click Signup to create an account</li>
+            <div id="signup-btn">
+              <button type="login" class="btn btn-secondary">Signup</button>
+            </div>
           </div>
-      </div>
+        </div>
+    </div>
 </body>
 </html>
