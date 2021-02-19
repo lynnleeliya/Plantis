@@ -78,7 +78,8 @@ li {
 }
 
 .btn.btn-secondary:hover {
-    background-color: #87BBA2;
+    background-color: #ffffff;
+    color: #1C5F68;
 }
 
 /* Login */
@@ -105,7 +106,8 @@ label {
 }
 
 .btn.btn-primary:hover {
-    background-color: #87BBA2;
+    background-color: #ffffff;
+    color: #1C5F68;
 }
 
 /*  */
